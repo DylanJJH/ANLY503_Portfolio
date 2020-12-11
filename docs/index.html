@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>MyLabJournal</title>
+<title>DylanJi Portfolio</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -95,6 +92,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +110,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +129,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +187,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -201,7 +292,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MyLabJournal</h1>
+<h1 class="title toc-ignore">DylanJi Portfolio</h1>
 
 </div>
 
@@ -218,11 +309,50 @@ $(document).ready(function () {
 </style>
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
-<h1 id="my-lab-journal"><strong>My Lab Journal</strong></h1>
-<p>This is a template example for lab journaling. Students in Matt Crump’s Human Cognition and Performance Lab will use this template to learn R, and other things. Students can replace this text with more fun things. People not in my lab can use this too.</p>
-<h2 id="how-to-use">How to use</h2>
+<h1 id="dylanji-portfolio"><strong>DylanJi Portfolio</strong></h1>
+<p>I’m Jianhao Ji. In this website, you will see my assignments and project of ANLY 503.</p>
+<h2 id="assignment-5">Assignment 5</h2>
+<p>Static Visualization Assignment</p>
+<h3 id="task-1">task 1</h3>
+<p>Explore all accounts. Create visualizations that combine or these account characteristics:</p>
 <ol style="list-style-type: decimal">
-<li><p>fork the repo for this website and follow instructions on read me to get set up. <a href="https://github.com/CrumpLab/LabJournalWebsite" class="uri">https://github.com/CrumpLab/LabJournalWebsite</a></p></li>
+<li><p>Whether an account has a credit card or not</p></li>
+<li><p>Whether an account has a loan or not</p></li>
+<li><p>The average balance for the account</p></li>
+</ol>
+<h3 id="task-2">task 2</h3>
+<p>What is the distribution of all loans and what are their characteristics?</p>
+<h3 id="task-3">task 3</h3>
+<p>Is there a relationship between a good or bad loan and the time between an account is opened an the loan is created?</p>
+<p>Is there a specific set of accounts that seem to be at higher or lower risk of defaulting?</p>
+<h3 id="task-4">task 4</h3>
+<p>For the account with the highest number of transactions, make a time series line plot for the behavior of the account over time, including all debits and credits, the different methods, and the with the different categories.</p>
+<h3 id="task-5">task 5</h3>
+<p>Explore the validity of the data for the case whether or not an account has a credit card and whether or not they have associated credit card transactions. Is there anything worth noting?</p>
+<h2 id="assignment-6">Assignment 6</h2>
+<p>Geospatial Visualization Assignment</p>
+<h3 id="task-1-1">task 1</h3>
+<p>Data extraction: The following must be done using R or Python scripts, so that the extraction is reproducible</p>
+<ol style="list-style-type: decimal">
+<li><p>You will extract from the datasets the proportion of the vote won by either the Democratic or Republican candidate for each county for each of the three elections.</p></li>
+<li><p>You will also extract the unemployment rates for each county for each of the three election years</p></li>
+</ol>
+<h3 id="task-2-1">task 2</h3>
+<p>Create 6 choropleths:</p>
+<ol style="list-style-type: decimal">
+<li><p>The proportion of the vote won by your chosen candidate in each county for each of the three elections, based on a map of US counties represented in the shapefiles mentioned above</p></li>
+<li><p>The unemployment rate in each county for each of the three election years (2008, 2012, 2016) using the US map of counties based on the same shapefiles as above. (3 choropleths)</p></li>
+</ol>
+<h2 id="assignment-7">Assignment 7</h2>
+<p>Network Graph Assignment</p>
+<h3 id="task-1-2">task 1</h3>
+<p>you will need to extract the data in the form of a data frame with 3 columns: source, target and count; the last column will contain the numbers of people who migrated from the source state to the target state in 2018</p>
+<h3 id="task-2-2">task 2</h3>
+<p>You can now use this data frame to create a graph object using igraph (R or Python), tidygraph (R) or networkx (Python)</p>
+<h3 id="task-3-1">task 3</h3>
+<p>You will create a single network graph, where the width of each edge representing the number of people moving between the two states, the color of the edge denoting the state of origin, and preferably arrows denoting the direction of migration. These aspects are required. You can style other aspects of the graph as you choose to improve readability.</p>
+<ol style="list-style-type: decimal">
+<li><p>fork the repo for this website and follow instructions on read me to get set up. <a href="https://github.com/CrumpLab/LabJournalWebsite">https://github.com/CrumpLab/LabJournalWebsite</a></p></li>
 <li><p>Blog/journal what you are doing in R, by editing the Journal.Rmd. See the <a href="https://crumplab.github.io/LabJournalWebsite/Journal.html">Journal page</a> for an example of what to do to get started learning R.</p></li>
 <li><p>See the <a href="https://crumplab.github.io/LabJournalWebsite/Links.html">links page</a> for lots of helpful links on learning R.</p></li>
 <li><p>Change everything to make it your own.</p></li>
@@ -250,6 +380,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

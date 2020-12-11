@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "ANLY503 Portfolio"
 navbar:
-  title: "MyLabJournal"
+  title: "ANLY503 Portfolio"
   left:
     - text: "Home"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
+    - text: "Static Visualization Assignment"
+      href: Static Visualization Assignment.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"
