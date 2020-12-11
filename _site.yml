@@ -5,7 +5,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Static Visualization Assignment"
-      href: Static Visualization Assignment.html
-    - text: "Links"
-      href: Links.html
+      href: A5.html
+    - text: "Geospatial Visualization Assignment"
+      href: A6.html
+    - text: "Network Graph Assignment"
+      href: networks.html
 output_dir: "docs"
