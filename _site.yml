@@ -10,4 +10,6 @@ navbar:
       href: A6.html
     - text: "Network Graph Assignment"
       href: networks.html
+    - text: "Coffee Rating Project"
+      href: cafee_rating_vis.html
 output_dir: "docs"
