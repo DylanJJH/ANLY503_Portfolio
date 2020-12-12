@@ -81,24 +81,9 @@ Network Graph Assignment
   You will create a single network graph, where the width of each edge representing the number of people moving between the two states, the color of the edge denoting the state of origin, and preferably arrows denoting the direction of migration. These aspects are required. You can style other aspects of the graph as you choose to improve readability.
 
 
+## Project
+  Coffee Rating Project
 
 
-
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
-
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
-
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
-
-4. Change everything to make it your own.
-
-
-</div>
-<div class="col-sm-6">
-
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
-
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
 </a>
 </div>
